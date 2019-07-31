@@ -1,7 +1,7 @@
 OpenStack
 =========
 
-Provision VMs on an exiting OpenStack cloud, using native ansible's `cloud modules <http://docs.ansible.com/ansible/list_of_cloud_modules.html#openstack>`_.
+Provision VMs on an existing OpenStack cloud, using native ansible's `cloud modules <http://docs.ansible.com/ansible/list_of_cloud_modules.html#openstack>`_.
 
 OpenStack Cloud Details
 -----------------------
@@ -25,7 +25,7 @@ OpenStack Cloud Details
     ``clouds.yml`` is expected in either ``~/.config/openstack`` or ``/etc/openstack`` directories
     according to `documentation <http://docs.openstack.org/developer/os-client-config/#config-files>`_:
 
-        .. note:: You can also omit the cloud parameter, and `infrared` will sourced openstackrc file:
+        .. note:: You can also omit the cloud parameter, and `infrared` will source the openstackrc file:
 
           .. code-block:: shell
 
